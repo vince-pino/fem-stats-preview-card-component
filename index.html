@@ -4,30 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600;700&family=Press+Start+2P&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/index.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    
   </style>
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <main>
+    <div class="text-container">
+      <div class="title">
+        Get <span class="insights">insights</span> that help your business grow.
+      </div>
+      <div class="description">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+      </div>
+      <div class="stats">
+        <div class="stat">10k+ <span>companies</span></div>
+        <div class="stat">314 <span>templates</span></div>
+        <div class="stat">12m+ <span>queries</span></div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="images/image-header-desktop.jpg" alt="">
+      <div class="overlay"></div>
+    </div>
+  </main>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Vince Cedie Pino</a>.
+    </div>
+  </footer>
 </body>
 </html>
